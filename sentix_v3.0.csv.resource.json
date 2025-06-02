@@ -1,0 +1,47 @@
+{
+  "name": "sentix_v3.0",
+  "type": "table",
+  "title": "Sentix 3.0",
+  "description": "Affective lexicon for the Italian language",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "path": "sentix_v3.0.csv",
+  "scheme": "file",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "bytes": 1799365,
+   "dialect": {
+   "headerRows": [
+      1
+    ],
+    "headerCase": false
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "lemma",
+        "type": "string",
+        "description": "Italian lemmas and multiwords"
+      },
+      {
+        "name": "score",
+        "type": "number",
+        "description": "Polarity score (-1, 1)"
+      },
+      {
+        "name": "polarity",
+        "type": "string",
+        "description": "Categorical polarity. Possible values are: \"Positive\", \"Negative\", \"Neutral\"."
+      }
+    ],
+    "primaryKey": [
+      "lemma"
+    ]
+  }
+ }
