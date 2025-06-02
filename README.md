@@ -4,9 +4,7 @@
 
 
 
-Sentix is an **affective lexicon for the Italian language**, created in 2013 by aligning several lexical resources. This version, Sentix 3.0, represents a significant update, incorporating an expanded set of lemmas and polarity assignments.
-
-This version, Sentix 3.0, contains **63,660 lemmas**, with associated **affective scores** (ranging from -1 to +1) and categorical **polarity classifications** (Positive, Neutral, Negative).
+Sentix is an **affective lexicon for the Italian language**, created in 2013 by aligning several lexical resources. This version, Sentix 3.0, represents a significant update, incorporating an expanded set of lemmas (**63,660 entries**), with associated **affective scores** (ranging from -1 to +1) and categorical **polarity classifications** (Positive, Neutral, Negative).
 
 ## Background
 
