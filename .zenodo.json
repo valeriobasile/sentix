@@ -1,8 +1,5 @@
 {
-    "upload_type": "dataset",
-    "title": "Sentix",
-    "description": "Lessico affettivo con lemmi, punteggi e polarità (positive, neutral, negative)",
-    "creators": [
+   "creators": [
         {
             "name": "Basile, Valerio",
             "affiliation": "Università di Torino",
@@ -33,15 +30,9 @@
             "type": "DataCurator"
         }
     ],
-    "license": "CC-BY-4.0",
-    "keywords": [
-        "lessico affettivo",
-        "sentiment analysis",
-        "lingua italiana",
-        "NLP",
-        "risorse linguistiche"
-    ],
+    "title": "Sentix",
     "version": "3.0.0",
+    "access_right": "open",
     "related_identifiers": [
         {
             "identifier": "https://github.com/valeriobasile/sentixR",
@@ -49,7 +40,7 @@
             "relation": "isRelatedTo",
             "resource_type": "software"
         },
-# eventualmente aggiungere a seguire LOD
+# eventualmente aggiungere qui LOD, oppure cancellare queste righe
         {
             "identifier": "",
             "scheme": "url",
@@ -64,7 +55,15 @@
             "resource_type": "publication-conferencepaper"
         }
     ],
+    "keywords": [
+        "lessico affettivo",
+        "sentiment analysis",
+        "lingua italiana",
+        "NLP",
+        "risorse linguistiche"
+    ],
+    "license": "CC-BY-4.0",
+    "upload_type": "dataset",
     "language": "ita",
-    "access_right": "open",
     "publication_date": "2025-06-08"
 }
