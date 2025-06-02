@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Se usi questo dataset, per favore citalo come sotto."
 title: "Sentix"
-abstract: "Lessico affettivo con lemmi, punteggi e polarità (positive, neutral, negative)"
+abstract: "Lessico affettivo per l'italiano con lemmi, punteggi e polarità (positive, neutral, negative)"
 authors:
   - family-names: "Basile"
     given-names: "Valerio"
