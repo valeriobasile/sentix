@@ -1,10 +1,10 @@
-# Sentix v3.0: An Affective Lexicon for Italian
+# Sentix v3.0
 
 [![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 
 
-Sentix is a polarity lexicon for the Italian language, created in 2013 by aligning several lexical resources. This version, Sentix 3.0, represents a significant update, incorporating an expanded set of lemmas and polarity assignments.
+Sentix is an **affective lexicon for the Italian language**, created in 2013 by aligning several lexical resources. This version, Sentix 3.0, represents a significant update, incorporating an expanded set of lemmas and polarity assignments.
 
 This version, Sentix 3.0, contains **63,660 lemmas**, with associated **affective scores** (ranging from -1 to +1) and categorical **polarity classifications** (Positive, Neutral, Negative).
 
@@ -37,8 +37,8 @@ The resources used for this update include SentiWordNet, MultiWordNet (via *Open
 * **Separator:** Comma (`,`)
 * **Columns:**
     * `lemma`: (string) The lemma.
-    * `score`: (float) The polarity score (e.g., ranging from -1 to 1). Explain how it's derived or interpreted.
-    * `polarity`: (string) Categorical polarity (e.g., "Positive", "Negative", "Neutral").
+    * `score`: (float) The polarity score (-1, 1).
+    * `polarity`: (string) "Positive", "Negative", "Neutral".
 
 
 ## License

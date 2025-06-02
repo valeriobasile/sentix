@@ -8,6 +8,7 @@
             "affiliation": "Università di Torino",
             "orcid": "0000-0001-8110-6832"
         },
+# controllare
         {
             "name": "Nissim, Malvina",
             "affiliation": "Università di Pisa",
@@ -48,6 +49,14 @@
             "relation": "isRelatedTo",
             "resource_type": "software"
         },
+# eventualmente aggiungere a seguire LOD
+        {
+            "identifier": "",
+            "scheme": "url",
+            "relation": "isRelatedTo",
+            "resource_type": ""
+        },
+
         {
             "identifier": "https://aclanthology.org/W13-1614/",
             "scheme": "url",
