@@ -1,6 +1,6 @@
 # Sentix v3.0
 
-[![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
 Sentix is an **affective lexicon for the Italian language**, created in 2013, and available via the `sentixR` R package on GitHub since 2019 (Basile, 2019-2024). Sentix 3.0 represents a major update, incorporating an expanded set of lemmas (**63,660 entries**), with associated **polarity scores** (ranging from -1 to +1) and **categorical polarity classifications** (Positive, Neutral, Negative).
@@ -41,7 +41,7 @@ The resources used for this update include SentiWordNet, MultiWordNet (via *Open
 
 ## License
 
-This dataset is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).
+This dataset is released under the [Creative Commons Attribution 4.0 International (CC BY SA 4.0) License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## How to Cite Sentix v3.0
 
