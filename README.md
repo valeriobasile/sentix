@@ -47,7 +47,6 @@ This dataset is released under the [Creative Commons Attribution 4.0 Internation
 
 If you use Sentix v3.0 in your research, please cite it as follows:
 
-(Autori di Sentix v3.0). (Anno di Pubblicazione su Zenodo). *Sentix v3.0*. Zenodo. https://doi.org/YOUR_ZENODO_DOI_ONCE_AVAILABLE
 
 
 ## Authors 
