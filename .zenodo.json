@@ -5,10 +5,14 @@
             "affiliation": "Università di Torino",
             "orcid": "0000-0001-8110-6832"
         },
-# controllare
         {
             "name": "Nissim, Malvina",
-            "affiliation": "Università di Pisa",
+            "affiliation": "University of Groningen",
+            "orcid": "0000-0001-5289-0971"
+        },
+                {
+            "name": "Bosco, Cristina",
+            "affiliation": "Università di Torino",
             "orcid": "0000-0001-5289-0971"
         },
         {
@@ -40,7 +44,6 @@
             "relation": "isRelatedTo",
             "resource_type": "software"
         },
-# eventualmente aggiungere qui LOD, oppure cancellare queste righe
         {
             "identifier": "",
             "scheme": "url",
@@ -65,5 +68,5 @@
     "license": "CC-BY-4.0",
     "upload_type": "dataset",
     "language": "ita",
-    "publication_date": "2025-06-08"
+    "publication_date": "2025-06-04"
 }
