@@ -53,7 +53,7 @@ If you use Sentix v3.0 in your research, please cite it as follows:
 
 **Creators:**
 * Basile, Valerio (Università di Torino)
-* Nissim, Malvina (Università di Pisa)
+* Nissim, Malvina (Università di Groningen)
 * Bosco, Cristina (Università di Torino)
 * Gabrieli, Giuliano (CREA-PB)
 * Vassallo, Marco (CREA-PB)
