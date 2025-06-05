@@ -13,7 +13,7 @@
                 {
             "name": "Bosco, Cristina",
             "affiliation": "Università di Torino",
-            "orcid": "0000-0001-5289-0971"
+            "orcid": "0000-0002-8857-4484"
         },
         {
             "name": "Vassallo, Marco",
@@ -44,13 +44,6 @@
             "relation": "isRelatedTo",
             "resource_type": "software"
         },
-        {
-            "identifier": "",
-            "scheme": "url",
-            "relation": "isRelatedTo",
-            "resource_type": ""
-        },
-
         {
             "identifier": "https://aclanthology.org/W13-1614/",
             "scheme": "url",
