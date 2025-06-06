@@ -47,6 +47,8 @@ This dataset is released under the [Creative Commons Attribution 4.0 Internation
 
 If you use Sentix v3.0 in your research, please cite it as follows:
 
+Basile, V., Nissim, M., Bosco, C., Vassallo, M., & Gabrieli, G. (2025). Sentix (Versione 3.0.0) [Dataset]. https://doi.org/10.5281/zenodo.15609215
+
 
 
 ## Authors 
