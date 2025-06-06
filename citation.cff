@@ -14,7 +14,7 @@ authors:
     affiliation: "University of Groningen" 
     orcid: "https://orcid.org/0000-0001-5289-0971"
   - family-names: "Bosco"
-    -given-names: "Cristina"
+    given-names: "Cristina"
     affiliation: "Università di Torino"
     orcid: "https://orcid.org/0000-0002-8857-4484"
   - family-names: "Vassallo"
