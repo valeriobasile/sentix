@@ -39,12 +39,6 @@
     "access_right": "open",
     "related_identifiers": [
         {
-            "identifier": "https://github.com/valeriobasile/sentixR",
-            "scheme": "url",
-            "relation": "isRelatedTo",
-            "resource_type": "software"
-        },
-        {
             "identifier": "https://aclanthology.org/W13-1614/",
             "scheme": "url",
             "relation": "isReferencedBy",
