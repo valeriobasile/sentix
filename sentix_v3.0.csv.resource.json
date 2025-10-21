@@ -15,9 +15,9 @@
   "format": "csv",
   "mediatype": "text/csv",
   "encoding": "utf-8",
-  "bytes": 1799365,
-   "dialect": {
-   "headerRows": [
+  "bytes": 1963170,
+  "dialect": {
+    "headerRows": [
       1
     ],
     "headerCase": false
@@ -44,4 +44,4 @@
       "lemma"
     ]
   }
- }
+}

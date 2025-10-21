@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15609215.svg)](https://doi.org/10.5281/zenodo.15609215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
-Sentix is an **affective lexicon for the Italian language**, created in 2013, and available via the `sentixR` R package on GitHub since 2019 (Basile, 2019-2024). Sentix 3.0 represents a major update, incorporating an expanded set of lemmas (**63,660 entries**), with associated **polarity scores** (ranging from -1 to +1) and **categorical polarity classifications** (Positive, Neutral, Negative).
+Sentix is an **affective lexicon for the Italian language**, created in 2013, and available via the `sentixR` R package on GitHub since 2019 (Basile, 2019-2024). Sentix 3.0 represents a major update, incorporating an expanded set of lemmas (**70,750 entries**), with associated **polarity scores** (ranging from -1 to +1) and **categorical polarity classifications** (Positive, Neutral, Negative).
 
 ## Background
 
@@ -17,14 +17,16 @@ Two derived resources were also developed:
 
 - **WMAL (Weighted-MAL)** (Vassallo et al., 2020): Recalculated MAL’s scores by weighting them with word frequencies from the TWITA corpus (Basile & Nissim, 2013) to reduce polarity imbalance. The weighting methodology and polarity calculation based on WMAL are key to Sentix 3.0’s polarity categorical classification.
 
-## Sentix v3.0: Update Process and Features
+## Sentix v3.1: Update Process and Features
 
-The update leading to Sentix 3.0 was the decision to harmonize all three resources (Sentix, MAL, WMAL) to ensure overall consistency.
+The update leading to Sentix 3.1 was the decision to harmonize all three resources (Sentix, MAL, WMAL) to ensure overall consistency.
 
 This overall check involved:
 * Identifying entries in Sentix (i.e., entries that could be either base forms or inflected forms) that could generate unexpected duplicate entries when creating MAL.
 * Expanding Sentix by back-linking lemmas from *Morph-it!* traceable to pre-existing entries.
-* Adding neutral terms from SentiWordNet not already present in Sentix (22,117 entries).
+* Adding neutral terms from SentiWordNet not already present in Sentix (29,200 entries).
+
+Polarity is associated to synsets, and the same term can occur in more than one synset. 
 
 The resources used for this update include SentiWordNet, MultiWordNet (via *Open Multilingual Wordnet* <https://omwn.org/> (Bond et al., 2023; Bond & Paik, 2012), the TreeTagger library (Schmid et al., 2007), and *Morph-it!*.
 
@@ -90,5 +92,4 @@ Vassallo, M., Gabrieli, G., Basile, V., & Bosco, C. (2019). The tenuousness of l
 Vassallo, M., Gabrieli, G., Basile, V., & Bosco, C. (2020). Polarity Imbalance in Lexicon-based Sentiment Analysis. In F. Dell’Orletta, J. Monti, & F. Tamburini (Eds.), *Proceedings of the Seventh Italian Conference on Computational Linguistics CLiC-it 2020 : Bologna, Italy, March 1-3, 2021* (pp. 457–463). Accademia University Press.
 
 Zanchetta, E., & Baroni, M. (2005). Morph-it! A free corpus-based morphological resource for the Italian language. *Proceedings of Corpus Linguistics Conference Series 2005 (ISSN 1747-9398)*, *1*, 1–12.
-
 
