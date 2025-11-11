@@ -63,10 +63,10 @@ Paik, 2012), the TreeTagger library (Schmid et al., 2007), and
 
 ### Score Calculation
 
-In SentiWordNet the positive $p$ and negative $n$ polarity scores are
+In SentiWordNet the positive *p* and negative *n* polarity scores are
 assigned to synsets independently, that is, the sum of positive,
 negative and neutral score is 1, and no constraint is posed on the
-relative size of $p$ and $n$.
+relative size of *p* and *n*.
 
 Geometrically, a synset can be represented as a point in the cartesian
 space, where its *x* coordinate is the positive score and
@@ -77,7 +77,7 @@ style="width:50.0%" data-fig-align="center"
 alt="Sentiment plane (Basile &amp; Nissim, s.d.)" />  
 *The sentiment plane (Basile & Nissim, s.d.)*
 
-Since $x + y ≤ 1$, the *sentiment plane* is restricted to a triangle,
+Since *x + y ≤ 1*, the *sentiment plane* is restricted to a triangle,
 where:
 
 - ***Intensity***, the strength of the sentiment, can be calculated as
