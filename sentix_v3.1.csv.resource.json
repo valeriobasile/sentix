@@ -1,7 +1,7 @@
 {
-  "name": "sentix_v3.0",
+  "name": "sentix_v3.1",
   "type": "table",
-  "title": "Sentix 3.0",
+  "title": "Sentix 3",
   "description": "Affective lexicon for the Italian language",
   "licenses": [
     {
@@ -10,14 +10,13 @@
       "title": "Creative Commons Attribution ShareAlike 4.0"
     }
   ],
-  "path": "sentix_v3.0.csv",
+  "path": "sentix_v3.1.csv",
   "scheme": "file",
   "format": "csv",
   "mediatype": "text/csv",
   "encoding": "utf-8",
-  "bytes": 1799365,
-   "dialect": {
-   "headerRows": [
+  "dialect": {
+    "headerRows": [
       1
     ],
     "headerCase": false
@@ -38,10 +37,15 @@
         "name": "polarity",
         "type": "string",
         "description": "Categorical polarity. Possible values are: \"Positive\", \"Negative\", \"Neutral\"."
+      },
+      {
+        "name": "polypathy_index",
+        "type": "string",
+        "description": "Categorical classification of polypathy. Possible values are: \"0\", \"1\", \"2\", \"3\"."
       }
     ],
     "primaryKey": [
       "lemma"
     ]
   }
- }
+}

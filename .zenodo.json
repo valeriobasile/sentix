@@ -1,5 +1,5 @@
 {
-   "creators": [
+    "creators": [
         {
             "name": "Basile, Valerio",
             "affiliation": "Università di Torino",
@@ -10,7 +10,7 @@
             "affiliation": "University of Groningen",
             "orcid": "0000-0001-5289-0971"
         },
-                {
+        {
             "name": "Bosco, Cristina",
             "affiliation": "Università di Torino",
             "orcid": "0000-0002-8857-4484"
@@ -35,7 +35,7 @@
         }
     ],
     "title": "Sentix",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "access_right": "open",
     "related_identifiers": [
         {
