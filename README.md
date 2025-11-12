@@ -1,7 +1,8 @@
 # Sentix 3
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15609215.svg)](https://doi.org/10.5281/zenodo.15609215)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15609185.svg)](https://doi.org/10.5281/zenodo.15609185)
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
