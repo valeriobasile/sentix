@@ -26,7 +26,7 @@ authors:
   orcid: 0000-0002-1419-9896
 cff-version: 1.2.0
 date-released: '2025-11-12'
-doi: 10.5281/zenodo.15609215
+doi: 10.5281/zenodo.15609185
 keywords:
 - lessico affettivo
 - sentiment analysis
@@ -39,4 +39,5 @@ message: If you use this dataset, please cite it using the metadata from this fi
 title: Sentix
 type: dataset
 version: 3.1.0
+
 
