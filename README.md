@@ -1,7 +1,6 @@
 # Sentix 3
 
 
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15609185.svg)](https://doi.org/10.5281/zenodo.15609185)
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -9,9 +8,9 @@
 Sentix is an **affective lexicon for the Italian language**, created in
 2013, and available via the `sentixR` R package on GitHub since 2019
 (Basile, 2019/2024). Sentix 3 represents a major update, incorporating
-an expanded set of lemmas (**70,750 entries** in v3.1), with associated
-**polarity scores** (ranging from -1 to +1) and **categorical polarity
-classifications** (Positive, Neutral, Negative).
+an expanded set of lemmas (**68,190 entries** in v3.1.1), with
+associated **polarity scores** (ranging from -1 to +1) and **categorical
+polarity classifications** (Positive, Neutral, Negative).
 
 ## Background
 
@@ -40,7 +39,7 @@ Two derived resources were also developed:
   methodology and polarity calculation based on WMAL are key to Sentix
   3.0’s polarity categorical classification.
 
-## Sentix v3.1: Update Process and Features
+## Sentix v3: Update Process and Features
 
 The main reason for the Sentix 3 update was the decision to harmonize
 all three resources (Sentix, MAL, WMAL) to ensure overall consistency.
@@ -72,6 +71,9 @@ relative size of *p* and *n*.
 Geometrically, a synset can be represented as a point in the cartesian
 space, where its *x* coordinate is the positive score and
 the *y* coordinate is the negative score.
+
+Since *x + y ≤ 1*, the *sentiment plane* is restricted to a triangle,
+where:
 
 <img src="https://valeriobasile.github.io/twita/img/sentspace.png"
 style="width:50.0%" data-fig-align="center"
@@ -120,20 +122,18 @@ with multiple entries. It also considers whether the scores are
 “ambivalent” (i.e., the lemma’s entries include both positive and
 negative sentiment scores).
 
-The index is has four levels:”
+The index has four levels:”
 
 0: The lemma has no duplicate entries in the lexicon.
 
 1 (Low Variation): The difference between the max and min scores is
 below the mean threshold (\< 0.2717139).
 
-2 (High Variation, No Ambivalence): The difference is above the mean
-threshold (\> 0.2717139), but all entries share the same polarity
-(ambivalence = FALSE).
+2 (High Variation, No Ambivalence): The difference is above the mean,
+but all entries share the same polarity (ambivalence = FALSE).
 
-3 (High Variation, Ambivalent): The difference is above the mean
-threshold (\> 0.2717139), and the entries have mixed polarities
-(ambivalence = TRUE).
+3 (High Variation, Ambivalent): The difference is above the mean, and
+the entries have mixed polarities (ambivalence = TRUE).
 
 The following table summarizes the polypathy index classification:
 

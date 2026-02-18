@@ -1,5 +1,5 @@
 {
-  "name": "sentix_v3.1",
+  "name": "sentix_v3.1.1",
   "type": "table",
   "title": "Sentix 3",
   "description": "Affective lexicon for the Italian language",
@@ -10,7 +10,7 @@
       "title": "Creative Commons Attribution ShareAlike 4.0"
     }
   ],
-  "path": "sentix_v3.1.csv",
+  "path": "data/sentix_v3.1.1.csv",
   "scheme": "file",
   "format": "csv",
   "mediatype": "text/csv",
